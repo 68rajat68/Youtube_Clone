@@ -13,9 +13,9 @@ const Recommended = ({ categoryId }) => {
   }
 
 
-  useEffect(() => {
-    fetchData();
-  })
+  // useEffect(() => {
+  //   fetchData();
+  // })
 
   return (
     <div className='recommended'>

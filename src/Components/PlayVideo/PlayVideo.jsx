@@ -25,9 +25,9 @@ const PlayVideo = () => {
         // const commentData_url = `https://youtube.googleapis.com/youtube/v3/commentThreads?part=snippet%2Creplies&maxResults=10&videoId=${videoId}&key=${API_KEY}`;
         // await fetch(commentData_url).then(res => res.json()).then(data => setCommentData(data.items));
     }
-    useEffect(() => {
-        fetchVideoData();
-    }, [videoId])
+    // useEffect(() => {
+    //     fetchVideoData();
+    // }, [videoId])
 
     const fetchOtherData = async () => {
         const channelData_url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet%2CcontentDetails%2Cstatistics&id=${apiData.snippet.channelId}&key=${API_KEY}`;
@@ -45,10 +45,10 @@ const PlayVideo = () => {
 
     
 
-    useEffect(() => {
-        if(apiData !== null) fetchOtherData();
-        // fetchCommentData();
-    }, [apiData])
+    // useEffect(() => {
+    //     if(apiData !== null) fetchOtherData();
+    //     // fetchCommentData();
+    // }, [apiData])
 
     return (
         <div className='play-video'>
