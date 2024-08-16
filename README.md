@@ -10,12 +10,11 @@
 - [Contact](#contact)
 
 ## Project Overview
-The **YouTube Clone** is a React application that mimics the core features of YouTube, allowing users to search for and watch videos. The app is designed to replicate the look and feel of YouTube while providing a streamlined experience for users.
+The **YouTube Clone** is a React application that mimics the core features of YouTube, allowing users to watch videos. The app is designed to replicate the look and feel of YouTube while providing a streamlined experience for users.
 
 The site is hosted on Vercel and can be accessed at [YouTube Clone](https://youtube-clone-zeta-rose.vercel.app/).
 
 ## Features
-- **Video Search:** Search for videos by keywords.
 - **Video Playback:** Watch videos within the app.
 - **Responsive Design:** The app is fully responsive and optimized for various devices.
 
@@ -50,7 +49,7 @@ To run the YouTube Clone locally, follow these steps:
 5. Open your browser and go to `http://localhost:3000` to see the app in action.
 
 ## Usage
-To use the app, visit the <a href="https://youtube-clone-zeta-rose.vercel.app/" target="_blank">YouTube Clone</a>. Search for videos using the search bar, and click on any video to start playback.
+To use the app, visit the <a href="https://youtube-clone-zeta-rose.vercel.app/" target="_blank">YouTube Clone</a>. Click on any video to start playback.
 
 ## Screenshots
 Some screenshots of Youtube Clone.
